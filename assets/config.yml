@@ -125,7 +125,7 @@ services:
         tag: "app"
         url: "https://10.10.0.102/"
   - name: "My Containers"
-    icon: "fas fa-cloud"
+    icon: "fas fa-wallet"
     items:
       - name: "Pi-hole"
         logo: "assets/data/icons/pihole.svg"
