@@ -170,7 +170,7 @@ services:
         url: "https://192.168.2.5:32400"
         target: "_blank" # optional html a tag target attribute
       - name: "Tautulli"
-        logo: "assets/data/icons/tautlli.png"
+        logo: "assets/data/icons/tautulli.png"
         subtitle: "Plex Monitoring and Management"
         tag: "app"
         url: "https://192.168.2.2:8181"
