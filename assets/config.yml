@@ -52,7 +52,7 @@ colors:
 links:
   - name: "Github"
     icon: "fab fa-github"
-    url: "https://github.com/tanner4137"
+    url: "https://github.com/mstemplinger"
     target: "_blank" # optional html a tag target attribute
   - name: "Wiki"
     icon: "fas fa-book"
@@ -67,14 +67,14 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Server Monitoring"
+  - name: "Docker"
     icon: "fas fa-cloud"
     items:
-      - name: "Elmer - iDrac"
-        logo: "assets/tools/sample.png"
-        subtitle: "Lights Out Monitoring"
+      - name: "Portainer"
+        logo: "assets/data/icons/portainer.png"
+        subtitle: "Manage my dockers"
         tag: "app"
-        url: "https://10.10.30.13/login.html/"
+        url: "https://192.168.2.2:9000"
         target: "_blank" # optional html a tag target attribute
       - name: "Daffy - iLO"
         logo: "assets/tools/sample.png"
