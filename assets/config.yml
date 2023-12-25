@@ -145,16 +145,19 @@ services:
         subtitle: "My VPN Service"
         tag: "app"
         url: "http://192.168.2.2:51821/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Motioneye"
         logo: "assets/data/icons/motioneye.png"
         subtitle: "Camera Projekt"
         tag: "app"
         url: "http://192.168.2.2:8765/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Homer"
         logo: "assets/data/icons/homer.png"
         subtitle: "This page"
         tag: "app"
         url: "http://192.168.2.2:8902/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Mosquitto"
         logo: "assets/data/icons/mosquitto.png"
         subtitle: "MQTT"
@@ -169,11 +172,13 @@ services:
         tag: "app"
         url: "https://192.168.2.5:32400"
         target: "_blank" # optional html a tag target attribute
+        target: "_blank" # optional html a tag target attribute
       - name: "Tautulli"
         logo: "assets/data/icons/tautulli.png"
         subtitle: "Plex Monitoring and Management"
         tag: "app"
         url: "https://192.168.2.2:8181"
+        target: "_blank" # optional html a tag target attribute
 #      - name: "Scrutiny"
 #        logo: "assets/tools/sample.png"
 #        subtitle: "SMART Info at a Glance"
@@ -184,6 +189,7 @@ services:
         subtitle: "SABNbzd NZBD downloader"
         tag: "app"
         url: "http://192.168.2.10:8081/sabnzbd/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Management"
     icon: "fas fa-cloud"
     items:
@@ -198,6 +204,7 @@ services:
         subtitle: "Monitor Service Uptime"
         tag: "app"
         url: "https://stats.uptimerobot.com/Hlq1oadhRW"
+        target: "_blank" # optional html a tag target attribute
 #      - name: "Cloudflare"
 #        logo: "assets/tools/sample.png"
 #        subtitle: "DNS and WAF"
