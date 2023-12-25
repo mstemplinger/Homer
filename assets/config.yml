@@ -120,7 +120,7 @@ services:
         tag: "app"
         url: "https://github.com/bastienwirtz/homer/blob/main/docs"
       - name: "Font-Awesome"
-        logo: "assets/tools/sample.png"
+        logo: "assets/data/icons/fontawesome.png"
         #subtitle: "SMART data at a glance"
         tag: "app"
         url: "https://fontawesome.com/v5/icons/cloud?f=classic&s=solid"
