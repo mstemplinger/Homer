@@ -90,9 +90,15 @@ services:
         subtitle: "SMART data at a glance"
         tag: "app"
         url: "https://10.10.0.102/"
-  - name: "Virtualization"
+  - name: "My Containers"
     icon: "fas fa-cloud"
     items:
+      - name: "Pi-hole"
+        logo: "assets/data/icons/pihole.png"
+        # subtitle: "Network-wide Ad Blocking" # optional, if no subtitle is defined, PiHole statistics will be shown
+        url: "http://192.168.2.225/admin"
+        apikey: "23a93ad65b399a03f9b0212eda83aa515e72fdc5a0c9fc7a2becd6e31c76144e" # optional, needed if web interface is password protected
+        type: "PiHole"
       - name: "vCenter"
         logo: "assets/tools/sample.png"
         subtitle: "vCenter Appliance"
