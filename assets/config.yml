@@ -192,6 +192,12 @@ services:
   - name: "Management"
     icon: "fas fa-cloud"
     items:
+      - name: "1home"
+        logo: "assets/data/icons/1home-dark-logo.png"
+        subtitle: "1home - Alexa"
+        tag: "app"
+        url: "https://my.1home.io"
+        target: "_blank" # optional html a tag target attribute
       - name: "Unifi"
         logo: "assets/data/icons/unifi2.png"
         subtitle: "Personal Unifi Network"
