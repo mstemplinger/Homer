@@ -112,7 +112,7 @@ services:
         tag: "app"
         url: "http://192.168.2.2:51821/"
       - name: "Motioneye"
-        logo: "assets/data/icons/motion.png"
+        logo: "assets/data/icons/motioneye.png"
         subtitle: "Camera Projekt"
         tag: "app"
         url: "http://192.168.2.2:8765/"
