@@ -170,13 +170,13 @@ services:
         logo: "assets/data/icons/plex.png"
         subtitle: "Plex Media Server"
         tag: "app"
-        url: "https://192.168.2.5:32400"
+        url: "http://192.168.2.5:32400"
         target: "_blank" # optional html a tag target attribute
       - name: "Tautulli"
         logo: "assets/data/icons/tautulli.png"
         subtitle: "Plex Monitoring and Management"
         tag: "app"
-        url: "https://192.168.2.2:8181"
+        url: "http://192.168.2.2:8181"
         target: "_blank" # optional html a tag target attribute
 #      - name: "Scrutiny"
 #        logo: "assets/tools/sample.png"
