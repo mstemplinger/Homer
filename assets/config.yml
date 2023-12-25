@@ -105,7 +105,7 @@ services:
         logo: "assets/data/icons/pihole.svg"
         # subtitle: "Network-wide Ad Blocking" # optional, if no subtitle is defined, PiHole statistics will be shown
         url: "http://192.168.2.225/admin"
-        apikey: "23a93ad65b399a03f9b0212eda83aa515e72fdc5a0c9fc7a2becd6e31c76144e" # optional, needed if web interface is password protected
+        apikey: "<key here>" # optional, needed if web interface is password protected
         type: "PiHole"
       - name: "vCenter"
         logo: "assets/tools/sample.png"
