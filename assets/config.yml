@@ -188,7 +188,7 @@ services:
         logo: "assets/data/icons/tautulli.png"
         subtitle: "Plex Monitoring and Management"
         tag: "app"
-        url: "http://192.168.2.2:8181"
+        url: "https://tau.ttcm.duckdns.org"
         target: "_blank" # optional html a tag target attribute
 #      - name: "Scrutiny"
 #        logo: "assets/tools/sample.png"
@@ -204,17 +204,23 @@ services:
   - name: "Management"
     icon: "fas fa-cloud"
     items:
+      - name: "Unifi"
+        logo: "assets/data/icons/unifi2.png"
+        subtitle: "Personal Unifi Network"
+        tag: "app"
+        url: "https://unifi.ttcm.duckdns.org"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Fritz!Box"
+        logo: "assets/data/icons/fritz.png"
+        subtitle: "My Fritz!Box"
+        tag: "app"
+        url: "https://fritz.ttcm.duckdns.org"
+        target: "_blank" # optional html a tag target attribute
       - name: "1home"
         logo: "assets/data/icons/1home-dark-logo.png"
         subtitle: "1home - Alexa"
         tag: "app"
         url: "https://my.1home.io"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Unifi"
-        logo: "assets/data/icons/unifi2.png"
-        subtitle: "Personal Unifi Network"
-        tag: "app"
-        url: "https://192.168.2.20/login?redirect=%2F"
         target: "_blank" # optional html a tag target attribute
       - name: "UptimeRobot"
         logo: "assets/data/icons/uptimerobot2.png"
