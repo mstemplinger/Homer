@@ -140,7 +140,13 @@ services:
         apikey: "23a93ad65b399a03f9b0212eda83aa515e72fdc5a0c9fc7a2becd6e31c76144e" # optional, needed if web interface is password protected
         type: "PiHole"
         tag: "PiHole"
-      - name: "Homebridge"
+      - name: "Vaultwarden"
+        logo: "assets/data/icons/vaultwarden.jpg"
+        subtitle: "Personal password manager "
+        tag: "app"
+        url: "https://vw.ttcm.duckdns.org/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Vaultwarden"
         logo: "assets/data/icons/homebridge.jpg"
         subtitle: "Homebridge allows you to integrate with smart home devices that do not natively support HomeKit. "
         tag: "app"
