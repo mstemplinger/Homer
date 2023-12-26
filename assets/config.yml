@@ -110,6 +110,12 @@ services:
         tag: "app"
         url: "https://192.168.2.2:9000"
         target: "_blank" # optional html a tag target attribute
+      - name: "NGinx"
+        logo: "assets/data/icons/nginx.png"
+        subtitle: "Manage my dockers"
+        tag: "app"
+        url: "https://192.168.2.2:81"
+        target: "_blank" # optional html a tag target attribute        
       - name: "Git HowTo"
         logo: "assets/data/icons/git.png"
         subtitle: "Documentation Git"
