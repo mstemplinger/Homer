@@ -121,15 +121,18 @@ services:
         subtitle: "Documentation Git"
         tag: "app"
         url: "https://www.atlassian.com/git/tutorials/syncing/git-pull"
+        target: "_blank" # optional html a tag target attribute
       - name : "Homer HowTo"
         logo: "assets/data/icons/homer.png"
         tag: "app"
         url: "https://github.com/bastienwirtz/homer/blob/main/docs"
+        target: "_blank" # optional html a tag target attribute
       - name: "Font-Awesome"
         logo: "assets/data/icons/fontawesome.png"
         #subtitle: "SMART data at a glance"
         tag: "app"
         url: "https://fontawesome.com/v5/icons/cloud?f=classic&s=solid"
+        target: "_blank" # optional html a tag target attribute
   - name: "My Containers"
     icon: "fas fa-wallet"
     items:
@@ -177,7 +180,7 @@ services:
         tag: "app"
         #url: "http://192.168.2.2:8902/"       
   - name: "Media Server"
-    icon: "fas fa-cloud"
+    icon: "fas fa-music"
     items:
       - name: "Plex"
         logo: "assets/data/icons/plex.png"
