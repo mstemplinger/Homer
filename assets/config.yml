@@ -140,6 +140,7 @@ services:
         apikey: "23a93ad65b399a03f9b0212eda83aa515e72fdc5a0c9fc7a2becd6e31c76144e" # optional, needed if web interface is password protected
         type: "PiHole"
         tag: "PiHole"
+        target: "_blank" # optional html a tag target attribute
       - name: "Vaultwarden"
         logo: "assets/data/icons/vaultwarden.png"
         subtitle: "Personal password manager "
