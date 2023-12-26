@@ -200,7 +200,7 @@ services:
         logo: "assets/data/icons/sabnzbd.png"
         subtitle: "SABNbzd NZBD downloader"
         tag: "app"
-        url: "http://192.168.2.10:8081/sabnzbd/"
+        url: "https://sab.ttcm.duckdns.org/sabnzbd/"
         target: "_blank" # optional html a tag target attribute
   - name: "Management"
     icon: "fas fa-cloud"
