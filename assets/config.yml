@@ -4,8 +4,8 @@
 
 title: "TTCM Web Services"
 subtitle: "Dashboard"
-#logo: "logo.png"
- icon: "fas fa-skull-crossbones" # Optional icon
+logo: "logo.png"
+icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
 footer: true 
