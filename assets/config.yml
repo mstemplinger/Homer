@@ -182,6 +182,12 @@ services:
   - name: "Media Server"
     icon: "fas fa-music"
     items:
+      - name: "VU+ Duo4K"
+        logo: "assets/data/icons/Duo4K.jpg"
+        subtitle: "Premiere"
+        tag: "app"
+        url: "http://192.168.2.11"
+        target: "_blank" # optional html a tag target attribute
       - name: "Plex"
         logo: "assets/data/icons/plex.png"
         subtitle: "Plex Media Server"
@@ -245,7 +251,7 @@ services:
   - name: "Heimnetz"
     icon: "fas fa-house"
     items:
-      - name: "Unii-Manage"
+      - name: "Unifi-Manage"
         logo: "assets/data/icons/UniFi_Manage_192.1682.20_ubnt-300x178.png"
         subtitle: "gira"
         tag: "app"
