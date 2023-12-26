@@ -2,10 +2,10 @@
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
-title: "Martins Web Services"
+title: "TTCM Web Services"
 subtitle: "Dashboard"
 #logo: "logo.png"
-# icon: "fas fa-skull-crossbones" # Optional icon
+ icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
 footer: true 
@@ -144,25 +144,25 @@ services:
         logo: "assets/data/icons/homebridge.jpg"
         subtitle: "Homebridge allows you to integrate with smart home devices that do not natively support HomeKit. "
         tag: "app"
-        url: "http://192.168.2.2:8581/"
+        url: "https://hb.ttcm.duckdns.org/"
         target: "_blank" # optional html a tag target attribute
       - name: "Wireguard"
         logo: "assets/data/icons/wireguard.png"
         subtitle: "My VPN Service"
         tag: "app"
-        url: "http://192.168.2.2:51821/"
+        url: "https://wg.ttcm.duckdns.org/"
         target: "_blank" # optional html a tag target attribute
       - name: "Motioneye"
         logo: "assets/data/icons/motioneye.png"
         subtitle: "Camera Projekt"
         tag: "app"
-        url: "http://192.168.2.2:8765/"
+        url: "https://me.ttcm.duckdns.org/"
         target: "_blank" # optional html a tag target attribute
       - name: "Homer"
         logo: "assets/data/icons/homer.png"
         subtitle: "This page"
         tag: "app"
-        url: "http://192.168.2.2:8902/"
+        url: "https://hp.ttcm.duckdns.org/"
         target: "_blank" # optional html a tag target attribute
       - name: "Mosquitto"
         logo: "assets/data/icons/mosquitto.png"
@@ -176,7 +176,7 @@ services:
         logo: "assets/data/icons/plex.png"
         subtitle: "Plex Media Server"
         tag: "app"
-        url: "http://192.168.2.5:32400"
+        url: "https://pi.ttcm.duckdns.org"
         target: "_blank" # optional html a tag target attribute
       - name: "Tautulli"
         logo: "assets/data/icons/tautulli.png"
