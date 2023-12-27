@@ -61,7 +61,7 @@ colors:
 #  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
 
 # Optional message
-message:
+#message:
   # url: "https://<my-api-endpoint>" # Can fetch information from an endpoint to override value below.
   # mapping: # allows to map fields from the remote format to the one expected by Homer
   #   title: 'id' # use value from field 'id' as title
