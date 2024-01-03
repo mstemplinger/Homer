@@ -150,6 +150,12 @@ services:
         tag: "app"
         url: "https://vw.ttcm.duckdns.org/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Grafana"
+        logo: "assets/data/icons/grafana.png"
+        subtitle: "Grafana Dashboard"
+        tag: "app"
+        url: "https://grafana.ttcm.duckdns.org/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Homebridge"
         logo: "assets/data/icons/homebridge.jpg"
         subtitle: "Homebridge allows you to integrate with smart home devices that do not natively support HomeKit. "
